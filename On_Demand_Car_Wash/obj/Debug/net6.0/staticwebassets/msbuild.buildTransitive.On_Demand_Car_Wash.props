@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\On_Demand_Car_Wash.props" />
+</Project>
