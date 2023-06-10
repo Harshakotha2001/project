@@ -1,0 +1,50 @@
+.thead{
+    background-color: rgb(42, 67, 141);
+  
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+      }
+      
+      .table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 800px;
+        margin-left:20px;
+      }
+      
+      .thead th {
+        background-color: #8e76ad;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      .tbody td {
+        border: 1px solid #091e01;
+        padding: 8px;
+      }
+      
+      .tbody tr:nth-child(even) {
+        background-color: #e081d1;
+      }
+      
+      .btn {
+        background-color: #e06464;
+        border: none;
+        padding: 6px 12px;
+        color: #451d1d;
+        cursor: pointer;
+      }
+      
+      .btn:hover {
+        background-color: #111123;
+      }
+      
+      
+     
+      
+      
+  
