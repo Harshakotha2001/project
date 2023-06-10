@@ -1,0 +1,59 @@
+<div class="container">
+  <h2>Sign Up</h2>
+  <form [formGroup]="signupForm">
+       <div  class ="form-group">
+        <label for="firstname"> First Name </label><br>
+        <input type="text" name="firstname" class="form-control" ngModel>
+               <!-- id="firstname"
+               type="text"
+               placeholder="Name"
+               name="firstname"
+               required
+               #firstname="ngModel"
+               [(ngModel)]="formData.firstName"
+               /> -->
+      </div>
+      <div  class ="form-group">
+        <label for="lastname"> Last Name </label><br>
+        <input type="text" name="lastname" class="form-control" ngModel>
+               <!-- id="lastname"
+               type="text"
+               placeholder="Name"
+               name="lastname"
+               required
+               #lastname="ngModel"
+               [(ngModel)]="formData.lastName"
+               /> -->
+      </div>
+      <div  class ="form-group">
+        <label for="email"> Email</label><br>
+        <input type="email" name="email" class="form-control" ngModel>
+               <!-- id="email"
+               type="email"
+               placeholder="email"
+               name="email"
+               required
+               #email="ngModel"
+               [(ngModel)]="formData.email"
+               /> -->
+      </div>
+      <div class="form-group">
+        <label for="password"> Password</label><br>
+        <input type="password" name="password" class="form-control" ngModel>
+               <!-- id="password"
+               type="password"
+               placeholder="password"
+               name="password"
+               required
+               #password="ngModel"
+               [(ngModel)]="formData.password"
+               /> -->
+      </div>
+      
+      <button  (click)="onSignUp()" class="btn btn-primary"  type="submit" >Submit</button>
+
+      
+  </form>
+
+
+
